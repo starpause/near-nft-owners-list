@@ -23,6 +23,6 @@ jobs:
           author_name: "Vote parser"
           add: 'output_votes.txt --force'
           message: "Votes parse"
-          github_token: ${{ secrets.KWHYC_OK }} # Use the PAT instead of the default GITHUB_TOKEN
+          github_token: ${{ secrets.KWHYC_OK }} # not sure if necessary, instead try to go into the repository Settings -> Actions -> General -> Workflow permissions -> Change to "Read and write permissions"
 
           
