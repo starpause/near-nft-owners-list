@@ -23,5 +23,6 @@ jobs:
           author_name: "Vote parser"
           add: 'output_votes.txt --force'
           message: "Votes parse"
+          token: ${{ secrets.KWHYC_OK }} # Use the PAT instead of the default GITHUB_TOKEN
 
           
